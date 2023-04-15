@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Introduction to Reverse Engineering</title>
+	<title>Introduction to ReverseLiveTech</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
@@ -30,64 +30,36 @@
 			line-height: 1.5;
 			margin-bottom: 20px;
 		}
-
-		.lang-btn {
-			position: absolute;
-			top: 10px;
-			right: 10px;
-			padding: 5px 10px;
-			background-color: #fff;
-			border: 1px solid #000;
-			border-radius: 5px;
-			cursor: pointer;
-		}
 	</style>
 </head>
 <body>
 	<div class="container">
-		<h1>Introduction to Reverse Engineering</h1>
-		<h2>What is Reverse Engineering?</h2>
-		<p>Reverse engineering is the process of analyzing and breaking down a program to understand its internal workings and implementation principles. Reverse engineers can use this analysis to crack software, identify vulnerabilities, and improve programs.</p>
-		
-		<h2>The Principles of Reverse Engineering</h2>
-		<p>Reverse engineering is typically divided into two categories: static analysis and dynamic analysis.</p>
-		
-		<p>Static analysis involves analyzing the program's source code, executable files, bytecode, and other static data to understand its behavior and structure. Common static analysis tools include disassemblers, assemblers, and debuggers.</p>
-		
-		<p>Dynamic analysis involves running the program and monitoring its runtime behavior to understand its internal mechanisms and execution process. Common dynamic analysis tools include debuggers, memory analyzers, and disassemblers.</p>
-		
-		<p>Static and dynamic analysis are complementary and can be used together to gain deeper insights into a program's execution mechanisms and implementation principles.</p>
+		<h1 id="reverselivetech">ReverseLiveTech</h1>
+		<p>Welcome to ReverseLiveTech organization, where a group of young people passionate about programming and reverse engineering come together. We aim to create first-class electronic products and software solutions, providing the most professional and advanced technical support to our clients.</p>
+		<h2 id="our-mission">Our Mission</h2>
+		<p>Our vision is to become a first-class brand in the field of electronic products and software solutions. We are committed to continuously exploring new technologies and methods to keep up with the ever-changing market and customer demands. Our mission is to create more value for customers through continuous innovation and improvement.</p>
+		<h2 id="our-values">Our Values</h2>
+		<p>We believe the following values will enable us to achieve our goals:</p>
+		<ul>
+		<li>Innovation: Constantly exploring and trying out new technologies and methods.</li>
+		<li>Customer first: All centered on customers, we believe that the success of customers is our success.</li>
+		<li>Eccentricity: We have a unique perspective and technology and constantly push the boundaries of ourselves.</li>
+		<li>Teamwork: We believe that the power of a team can exceed individual capabilities, collaborate and support each other to achieve better results.</li>
+		<li>Integrity: We are honest individuals, conduct ourselves with integrity, keep our promises and establish an industry image of integrity.</li>
+		</ul>
+		<h2 id="our-projects">Our Projects</h2>
+		<p>We are dedicated to researching and developing various electronic products and software solutions. Including but not limited to the following categories of projects:</p>
+		<ul>
+		<li>Mobile Apps: We develop various applications on iOS and Android platforms, including social, gaming, business, educational and more.</li>
+		<li>Reverse Engineering: We research the reverse engineering techniques of various devices and applications to provide security auditing and testing services.</li>
+		<li>Software Development: We develop various types of software, including PC programs, Web applications, and games.</li>
+		<li>Electronic Product Design: We design and manufacture various electronic products, including sensors, controllers, robots, and more.</li>
+		</ul>
+		<h2 id="how-to-join-us">How to Join Us</h2>
+		<p>If you are also a young person who loves programming and reverse engineering, and want to expand the boundaries of technology with us, please submit your application to join us through the GitHub page. We will review your application and contact you.</p>
+		<h2 id="contact-us">Contact Us</h2>
+		<p>If you are interested in our projects or services, or want to learn more about us, please feel free to contact us. You can contact us through our GitHub page, email, or social media.</p>
+		<p>Thank you for reading this document and we look forward to having you on board with our team!</p>
 	</div>
-
-	<button class="lang-btn" onclick="toggleLanguage()">EN</button>
-
-	<script>
-		function toggleLanguage() {
-			var langBtn = document.querySelector('.lang-btn');
-			if (langBtn.innerHTML === 'EN') {
-				langBtn.innerHTML = '中';
-				document.documentElement.lang = 'zh-CN';
-				document.querySelector('h1').innerHTML = '编程逆向介绍';
-				document.querySelector('h2:nth-of-type(1)').innerHTML = '什么是编程逆向？';
-				document.querySelector('p:nth-of-type(1)').innerHTML = '编程逆向是指通过对程序的分析和破解，来理解其内部运行机制和实现原理的过程。逆向工程师可以通过逆向分析来破解软件、发现漏洞、改进程序等。';
-				document.querySelector('h2:nth-of-type(2)').innerHTML = '编程逆向的原理';
-				document.querySelector('p:nth-of-type(2)').innerHTML = '编程逆向通常分为两类：静态分析和动态分析。';
-				document.querySelector('p:nth-of-type(3)').innerHTML = '静态分析涉及分析程序的源代码、可执行文件、字节码和其他静态数据，以了解其行为和结构。常用的静态分析工具包括反汇编器、汇编器和调试器。';
-				document.querySelector('p:nth-of-type(4)').innerHTML = '动态分析涉及运行程序并监视其运行时行为，以了解其内部机制和执行过程。常用的动态分析工具包括调试器、内存分析器和反汇编器。';
-				document.querySelector('p:nth-of-type(5)').innerHTML = '静态分析和动态分析是互补的，可以结合使用，以深入了解程序的执行机制和实现原理。';
-			} else {
-				langBtn.innerHTML = 'EN';
-				document.documentElement.lang = 'en';
-				document.querySelector('h1').innerHTML = 'Introduction to Reverse Engineering';
-				document.querySelector('h2:nth-of-type(1)').innerHTML = 'What is Reverse Engineering?';
-				document.querySelector('p:nth-of-type(1)').innerHTML = 'Reverse engineering is the process of analyzing and breaking down a program to understand its internal workings and implementation principles. Reverse engineers can use this analysis to crack software, identify vulnerabilities, and improve programs.';
-				document.querySelector('h2:nth-of-type(2)').innerHTML = 'The Principles of Reverse Engineering';
-				document.querySelector('p:nth-of-type(2)').innerHTML = 'Reverse engineering is typically divided into two categories: static analysis and dynamic analysis.';
-				document.querySelector('p:nth-of-type(3)').innerHTML = 'Static analysis involves analyzing the program\'s source code, executable files, bytecode, and other static data to understand its behavior and structure. Common static analysis tools include disassemblers, assemblers, and debuggers.';
-				document.querySelector('p:nth-of-type(4)').innerHTML = 'Dynamic analysis involves running the program and monitoring its runtime behavior to understand its internal mechanisms and execution process. Common dynamic analysis tools include debuggers, memory analyzers, and disassemblers.';
-				document.querySelector('p:nth-of-type(5)').innerHTML = 'Static and dynamic analysis are complementary and can be used together to gain deeper insights into a program\'s execution mechanisms and implementation principles.';
-			}
-		}
-	</script>
 </body>
 </html>
