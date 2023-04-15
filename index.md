@@ -1,5 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <title>Introduction to ReverseLiveTech</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      border-radius: 5px;
+      margin-top: 50px;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    p {
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
 <body>
 	<div class="container">
 		<h1 id="reverselivingtech">ReverseLivingTech</h1>
